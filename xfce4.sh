@@ -6,7 +6,7 @@ unzip ngrok-stable-linux-amd64.zip.1 > /dev/null 2>&1
 read -p "Ctrl + V Authtoken: " CRP 
 ./ngrok authtoken $CRP 
 nohup ./ngrok tcp 3389 &>/dev/null &
-echo Downloading File From Inhuman youtube channel
+echo Downloading File From Inhuman.king
 sudo apt update && apt upgrade -y
 sudo apt install firefox -y
 sudo apt install -y xrdp
